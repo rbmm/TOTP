@@ -516,7 +516,7 @@ class COtpDialog : public YDlg, MDC, TOTP
 
 		InitComboFromRegistry(GetDlgItem(hwndDlg, IDC_LABEL));
 
-		SetTimer(hwndDlg, 1, 0, 0);
+		SetTimer(hwndDlg, 1, 1000, 0);
 
 		return TRUE;
 	}
